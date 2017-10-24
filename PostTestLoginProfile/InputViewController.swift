@@ -77,6 +77,44 @@ class InputViewController: UIViewController {
             alertController.addAction(UIAlertAction(title: "OK",
                                                     style: .default,handler: nil))
             present(alertController, animated: true, completion: nil)
+        }else if (etEmail.text == ""){
+            let alertController = UIAlertController(title: "Warning",
+                                                    message: "Input Profile Can't Be Empty", preferredStyle : .alert)
+            alertController.addAction(UIAlertAction(title: "OK",
+                                                    style: .default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+        }else if (etAge.text == ""){
+            let alertController = UIAlertController(title: "Warning",
+                                                    message: "Input Profile Can't Be Empty", preferredStyle : .alert)
+            alertController.addAction(UIAlertAction(title: "OK",
+                                                    style: .default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+        }else if (etPassword.text == ""){
+            let alertController = UIAlertController(title: "Warning",
+                                                    message: "Input Profile Can't Be Empty", preferredStyle : .alert)
+            alertController.addAction(UIAlertAction(title: "OK",
+                                                    style: .default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+        }else if (etSchool.text == ""){
+            let alertController = UIAlertController(title: "Warning",
+                                                    message: "Input Profile Can't Be Empty", preferredStyle : .alert)
+            alertController.addAction(UIAlertAction(title: "OK",
+                                                    style: .default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+        }else if (etClass.text == ""){
+            let alertController = UIAlertController(title: "Warning",
+                                                    message: "Input Profile Can't Be Empty", preferredStyle : .alert)
+            alertController.addAction(UIAlertAction(title: "OK",
+                                                    style: .default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+        }else if (etUsername.text == ""){
+            let alertController = UIAlertController(title: "Warning",
+                                                    message: "Input Profile Can't Be Empty", preferredStyle : .alert)
+            alertController.addAction(UIAlertAction(title: "OK",
+                                                    style: .default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+            
+            
         }else{
             func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 
